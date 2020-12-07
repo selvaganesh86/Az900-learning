@@ -1,0 +1,18 @@
+Cloud concepts:
+
+key categories: computing, storage, networking and analytics
+
+High availability - low downtime
+scalability - increase or decrease resources as per needs. scalability is not necessarily automatic
+elasticity - auto or dynamically scalability
+agility - ability to react quickly
+Fault tolerance - remain running despite failure of component. redundant services take the place of a faulty component.
+DR - automation tools to switch over
+Global reach - presence in various regions even if they dont have resources in the location
+latency - slowness in certain situation can be addressed by having a local presence
+predictive cost considerations - cost of services are fixed and known. Take future growth also into consideration
+tech skills - no need for infra skills. need only app experts
+productivity - no need to rack and stack and patching
+security 
+Economies of scale
+
