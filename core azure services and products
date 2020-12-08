@@ -50,3 +50,9 @@ VPN gateway - connect azure and on prem app
 web load balancer - based on web trafic route to certain IP. includes firewall
 content delivery network - cache content and physically place content closer to the server
 
+Azure data categories:::::::::::::::::::::::::::::::
+Structured - has a schema, DB and tables AKA relational data eg: sensor data, financial data
+Semi-structured - adhoc schema, JSON, HTML etc, no relations
+Unstructured - non relational - no schema, JPEG and video etc
+
+Azure storage services:::::::::::::::::::::::::::
