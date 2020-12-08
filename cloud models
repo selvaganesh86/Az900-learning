@@ -1,6 +1,12 @@
 public cloud, private cloud, hybrid cloud
 
-public clould - most common. resouces are not owned by the organizations using it. it is owned by the service provider or host. eg: azure/aws
-Private cloud: owned and operated by the organization that uses it. It then provides self service model for users within. The org is responsible for HW. Skillsets needed to maintain the HW. usually due to regulatory requirements.
+public clould - most common. resouces are not owned by the organizations using it. it is owned by the service provider or host. eg: azure/aws. No Capex. 
+    Cons: no control for org, reg requirements cannot be met in some cases, less security controls
+Private cloud: owned and operated by the organization that uses it. It then provides self service model for users within. The org is responsible for HW. 
+Skillsets needed to maintain the HW. usually due to regulatory requirements.
+    adv: control, security and compliance
+    cons: capex, less agile, skillset investment
 Hybrid cloud: some resources are in public and some are in private cloud. Has efficiency advantages but is more difficult to maintain
+    adv: flexible, security and compliance
+    cons: capex, skillsets, management of solution
 
