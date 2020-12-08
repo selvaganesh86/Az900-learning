@@ -1,1 +1,17 @@
+shared responsibility model
+IaaS, PaaS, SaaS
 
+IaaS : data, app, OS, middleware, runtime etc are managed by org. Server, firewall, physical data centre is provided by host.
+  used for : data archival and recovery, workload sharing, web hosting, dev and testing etc. webhosting can be cheaper compared to godaddy etc.
+  Adv: This is most flexible and customizable. No capex for HW, agility, HW infra skills not needed
+  Cons: management
+  
+PaaS: data, app is managed by org. Server, firewall, data centre, OS, middleware etc are managed by host
+  used for : developers use it for scalability, availability advantages. also used for analytics
+  Adv: same as IaaS + productivity benefits
+  cons: platform limitation
+  
+SaaS: Only data and security is managed by org. App,Server, firewall, data centre, OS, middleware etc are managed by host. Almost completely managed by host
+  used for: office 365, teams etc, licensed monthly or annual subscription. expensive softwares are available with little upfront cost.
+  adv: all adv of PaaS + app usability
+  cons: less customized software limitation
