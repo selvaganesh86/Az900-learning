@@ -35,3 +35,18 @@ VM: logical physical server, RDP acces
 VM scale set : identically configured VMs, true euto-scaling can be done
 APP services : is a PaaS
 Functions: code only solution. tasks can be configured using this.
+
+
+Container services:::::::::::::::::::::::::::::::::::
+
+Containers are virtualization environments. However, no need to manage OS like in VMs
+this is a PaaS offering.
+AKS - azure kubernetes service is also a container service
+
+Azure networking::::::::::::::::::::::::::::::::::::;
+Virtual network - used to connect VMs seamlessly. within or outside regions can be securely connected
+Load balancer - scale apps with high availability, inbound and outbound support
+VPN gateway - connect azure and on prem app
+web load balancer - based on web trafic route to certain IP. includes firewall
+content delivery network - cache content and physically place content closer to the server
+
