@@ -1,1 +1,37 @@
+Core architecture:::::::::::::::::
 
+region is a collection of datacentres: East US, canada central, west EU, Aus east, Jap west. 54 regions and 140 countries
+within region many datacentres are connected with a low latency network
+due to flexibility of regions users are closer to data centres. regions offer compliance
+Azure AD, traffic manager and DNS are not region dependent.
+some services and VMs are available in certain regions
+
+region pairs: every region is paired with another as per geography. only brazil is paired outside of geo
+provides physical isolation - mostly 300 miles separation- natual disaster, power outage etc can be hedged
+some services are auto replicated. updates are rolled out to pairs sequentially
+
+availability options: SLA diff
+99.9% - VM
+99.95% - availability sets
+99.99% - Availability zones. This is highest
+
+Availability sets
+Fault domain - physical separation
+update domain - isolation through software by updating sequentially
+
+minimum 3 availability zone is provided
+
+Resource group is a container for multiple resources for ease of management and lifecycle. Billing, monitoring, policy deployments etc can be done by res group
+every resource must exist only within a res group. cannot used by all res groups
+
+resource manager helps auto deployment and management of resources
+
+
+Aure compute::::::::::::::::
+computing resources like cpu, disks, memory, networking etc. provisioned in mins
+VMs, linux, win server, SQL server, SAP etc
+
+VM: logical physical server, RDP acces
+VM scale set : identically configured VMs, true euto-scaling can be done
+APP services : is a PaaS
+Functions: code only solution. tasks can be configured using this.
