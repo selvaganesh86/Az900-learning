@@ -56,3 +56,43 @@ Semi-structured - adhoc schema, JSON, HTML etc, no relations
 Unstructured - non relational - no schema, JPEG and video etc
 
 Azure storage services:::::::::::::::::::::::::::
+
+Storage services are available in IaaS or PaaS
+IaaS - 1) disks: used by VMs. Managed (by azure) and Unmanaged (managed by users)types. SSD and HDDs are available 
+        2) files: SMB protocol. Multiple VMs can use them to read and write. just like file share. access though URL and token system.
+PaaS - 1) blob storage(container), files, video and audio etc, DR, archive etc.
+        2) queue - store list of messages, 64K limit for an item, millions can be used
+        3) Table - no SQL - structured non relational data
+        
+Azure database services::::::::::::::::::::::::::::
+Fully managed service
+Threat detection is automatically enabled
+high availability
+
+Cosmos DB: globally distributed schemaless data. scalable and responsible
+Azure SQL : is based on latest stable SQL server.(DAAS)
+Azure database migration service : online migration service to move databases into Azure. microsoft migration assistant can review and provide reports on readiness.
+
+Azure synapse analytics:::::::::::::::::::::::::
+
+based on azure sql data warehouse
+combines data warehousiing and big data analytics
+ingest, prepare, manage and serve uses
+components: SQL analytics, spark, data integration and studio
+
+
+Azure management tools::::::::::::::::::::::::::::
+
+1) Azure portal - most common way to manage
+                 - web based and manage all resources
+                 - tool tips and dashboards are available
+                 - customizable
+                 - no automation tasks are possible. Manual management only
+                 
+2) Azure power shell - most commonly used command line tool for azure resources
+                     - addition to windows power shell
+                     - can access azure resources
+                     - newAzVm command from powershell to create VM
+                     
+3) Azure CLI - Cross platform command line interface
+              - 
