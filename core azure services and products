@@ -95,4 +95,14 @@ Azure management tools::::::::::::::::::::::::::::
                      - newAzVm command from powershell to create VM
                      
 3) Azure CLI - Cross platform command line interface
+             - windows, linux and mac
+
+4) azure cloud shell - browser based scripting
+5) Azure mobile app - access and monitor azure resources. Not having a lot of functionalities. alerts, monitoring etc
+6) Rest APIs - service end points that supports Http operations. create, retrieve, update, delete resources
+7) Azure advisor - provides best practices and improvement tips. high availability and reduce costs. available in the azure portal to be enabled.
+
+Azure market place::::::::::::::::::::::::::::::::::::
+        - connect with MS partners, software apps service provider, etc
+        - 8000+ listings
               - 
