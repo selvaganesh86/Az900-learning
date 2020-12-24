@@ -1,0 +1,10 @@
+IOT :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Azure IOT central and Azure IOT hub are the main IOT offerings in Azure
+
+Azure central is a SaaS offering. it is fully managed (no cloud expertise needed at org level).
+Azure IOT hub is a two directional comm system that is hosted on Azure to communicate with IOT devices.
+
+Files transfer, device telemetry, request-reply are key tasks managed
+IOT product selector is available to view a list of IOT solutions offered by Azure.
+
