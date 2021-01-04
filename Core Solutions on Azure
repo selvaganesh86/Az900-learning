@@ -3,10 +3,37 @@ IOT :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 Azure IOT central and Azure IOT hub are the main IOT offerings in Azure
 
 Azure central is a SaaS offering. it is fully managed (no cloud expertise needed at org level).
-Azure IOT hub is a two directional comm system that is hosted on Azure to communicate with IOT devices.
 
+Azure IOT hub is a two directional comm system that is hosted on Azure to communicate with IOT devices.
+IOT Hub :
 Files transfer, device telemetry, request-reply are key tasks managed
 IOT product selector is available to view a list of IOT solutions offered by Azure.
 
 Big data and Analytics:::::::::::::::::::::::::::::::::::::::::::::
 
+Azure SQL data warehouse, Azure HD insight, Azure datalake analytics
+
+Azure SQL data warehouse : massively parallel processing (MPP)for analysis, Petabytes of data can be processed /loaded using T-SQL.
+Azure HD insight: opensource analytics service, supports popular opensource frameworks like Apache Spark, kafka and hadoop etc.
+Azure data lake analytics : write queries to transform, scale up easily and pay only for jobs running
+azure databricks : apache spark based analytics tool optimized for azure
+
+
+Artificial intelligence::::::::::::::::::::::::::::::::::::::::::::
+
+machine learning is main service
+Azure machine learning service: develop, deploy and train models using opensource frameworks like python and libraries like tensor flow etc. automatic models are also available
+azure machine learning studio : pre- built ML models - no need to code.
+
+Azure cognitive services:::::::::::::::::::::::::::::::::::::::::::::::
+
+contains following modules:
+vision(processing images and face detection)
+speech - speech to text and viceversa
+language - language translation, etc
+decision - anomaly detector, content monitoring
+search - news articles etc
+
+it is based on various AI offerings
+
+Serverless computing::::::::::::::::::::::::::::::::::::::::::::::::
