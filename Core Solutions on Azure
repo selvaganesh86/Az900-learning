@@ -26,6 +26,7 @@ Azure machine learning service: develop, deploy and train models using opensourc
 azure machine learning studio : pre- built ML models - no need to code.
 
 Azure cognitive services:::::::::::::::::::::::::::::::::::::::::::::::
+it is based on various AI offerings
 
 contains following modules:
 vision(processing images and face detection)
@@ -72,11 +73,3 @@ key advantages:
   visual studio integration
   APIs
   serverless code
-
-
-
-
-
-it is based on various AI offerings
-
-Serverless computing::::::::::::::::::::::::::::::::::::::::::::::::
