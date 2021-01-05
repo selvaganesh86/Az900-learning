@@ -34,6 +34,49 @@ language - language translation, etc
 decision - anomaly detector, content monitoring
 search - news articles etc
 
+Serverless computing::::::::::::::::::::::::::::::::::::::::::::::::::
+
+no config or maintenance necessary. rest endpoints, messages from other services can trigger. cost savings since it is used only when necessary.
+
+3 key server less computing services in azure
+
+Azure functions: code running service. no need to manage underlying server. Auto scaled depending on demand. Azure functions are stateless - it is like restarted everytime run.
+if state is to be stored, use storage services.
+
+Azure logic apps: helps to automate tasks and business workflows. designed in webbased designer. Able to connect to services like salesforce SAP etc.
+
+Azure event grid : fully managed builtin event routing system
+
+Azure dev ops:::::::::::::::::::::::::::::::::::::::::::::::::::::
+able to integrate with Git, jenkins etc
+to manage pipeline and software delivery
+load testing also available
+
+Azure dev test labs: quickly create environments and minimize waste. create windows and linux environments.
+
+Azure sphere::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+comprehensive IOT solution based on Microcontroller (MCU), linux OS and cloud security module
+
+Azure app service:::::::::::::::::::::::::::::::::::::::::::::::::
+
+helps to build and manage web and mobile apps and mobile app backgrounds
+supports windows and linux
+key advantages:
+  multiple language support
+  devops
+  global scale
+  connections to saas
+  security
+  readymade templates
+  visual studio integration
+  APIs
+  serverless code
+
+
+
+
+
 it is based on various AI offerings
 
 Serverless computing::::::::::::::::::::::::::::::::::::::::::::::::
