@@ -1,2 +1,23 @@
 securing network connectivity::::::::::::::::::::::::::::::::::::::::::::::
 
+3 key principles: confidentiality(access restrictions), integrity(security in transfer using hashing) and availability (ensure data is availability inspte of atacks)
+
+6 layers: deptth in defense
+  Physical security
+  identity and access
+  perimeter - leverage DDOS protection
+  network - limit communications between components
+  compute - security to VMs
+  application
+
+shared security responsibility
+
+Azure firewall : 
+  uses static IP to represent all its virtual network resources
+  fully integrated with azure monitor
+  high available
+  cloud scalable
+  inbound and outbound filtering rules
+  azure monitor logging
+  
+  Azure application gateway also provides firewall service for inbound protection of web apps. IT is called WAF - web application firewall.
