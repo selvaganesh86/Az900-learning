@@ -21,3 +21,30 @@ Azure firewall :
   azure monitor logging
   
   Azure application gateway also provides firewall service for inbound protection of web apps. IT is called WAF - web application firewall.
+
+DDos protection - scrubbing requests
+  Basic - automatically enabled. microsoft apps use it
+  standard - additional mitigation capabilities
+  
+  saves from volumentric attacks etc
+
+Network security groups (NSGs)
+  filters user traffic
+  inbound and outbound rules can be used
+  name, priority etc can be used in rules
+  
+Application security groups ASG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
