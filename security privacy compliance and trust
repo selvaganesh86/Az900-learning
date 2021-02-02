@@ -60,9 +60,40 @@ MFA - added security by asking for 2 or more avenues of data. use of biometrics 
 
 security tools and features:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+azure security centre
+  povides recommendations
+  continuously monitor and assess
+  used ML to detect and block malware
+  analyze and identify possible inbound attacks
+  Free and standard tier is available
+  Free is limited to recommendation and assessment only
+  standard provides continuous moniorin, threat detection etc
+
+Azure key vault:
+
+  keep application secrets
+  secrets mgmt - 
+  key mgmt
+  certificate management-
+  
+  Benefits:
+    centralized and secured, monitor and administer keys, can integrate with other azure services
+  
+  Azure information protection - tag it as public, restricted etc
+  
+  Advanced threat prrotectiion:
+    known malicious attacks can be prevented
+    
+    consists of portal, sensors installed on domain controllers, cloud service  
+    it is available as part of enterprise mobility or as standalone license. cannot be purchased via azure portal
+
+Monitoring and reporting::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
+
+  
+  
 
 
 
