@@ -35,6 +35,32 @@ Network security groups (NSGs)
   
 Application security groups ASG
 
+Azure identity services::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Authentication
+  - indentify
+   - credential request
+   -secure identity and access control principles
+
+authorization
+  - establishes authenticated entity's level of access
+  - what can be accesses and what can be done
+
+Azure active directoty
+  - internal and external
+  - authentication (MFA etc)
+  - SSO
+  - B2B
+  - B2C
+  - Device management
+  
+Used by IT admin, app developers, subscribers (azure, dynamics etc)
+
+MFA - added security by asking for 2 or more avenues of data. use of biometrics also
+
+security tools and features:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 
 
