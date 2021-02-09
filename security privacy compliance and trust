@@ -90,19 +90,23 @@ Azure key vault:
 Monitoring and reporting::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
  Tags are used to logically organize
- 
+ tag - name and value setting. Eg Tag = enviroment , value can be Production or Dvelopment
+ limitations: not all resources can have this. Limited to 50 usually, storage accounts are 15. tag names 256 chars (storage acc 128 chars)
+
+Azure monitor:
+  collect, monitor and act upon telemetry collected from various sources
+   
+   collects data for:
+    monitoring code
+    monitoring OS
+    Resource monitoring
+    subscription monitoring
+    Tenant monitoring
+   
+   diagnostics start as soon as resources are created
+   service health - personalized guidance and support. contains 3 parts (status, service health, resource health)
 
 
-  
-  
-
-
-
-
-
-
-
-
-
-
+Monitoring apps and services:
+  analyze, respond, visualize and integrate
 
