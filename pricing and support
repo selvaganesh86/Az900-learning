@@ -1,1 +1,43 @@
+azure subscriptions:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+azure account
+  Dev
+  test
+  prod
+ Subscriptions can be used as billing boundaries
+ 
+ Free tier for 12 months and 200 usd credit for 30 days for certain services.
+ 
+ Pay as you go - needs credit or debit card attached. Organizations can use invoicing methods to derive this.
+ 
+Member offers are available for visual studio members, biz spark etc
+
+org structure
+  management group - containers that help manage access and policy. 10000 groups can be managed, 6 levels
+  subscriptions - manage costs and resources
+  resource groups - containers of VMs and other resources
+  resources - etc VMs
+
+Plnning and managing Azure costs::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Types oc customers :
+  Enterprise customers - yearly fixed costs
+  web direct customers - pay through websie
+  Cloud solution providers - Microsoft partners to provide solutions. they also take care of billing
+  
+ Factors affecting costs:
+  resource type
+  services
+  location - globally distributed vs local distribution
+ 
+Bandwidth refers to data that moves in and out of data cenrtes.
+  inound data is free
+  outbound data is charged - depends on zones - zone 1, 2 ,3 and DE zone 1
+ 
+Azure pricing calculator: ool used to estimate cost. documentation is also available
+
+TCO calculator: estimate cost saving by usin azure.
+  define workloads, adjustments, review data
+  enter on prem setup detail into the TCO calculator
+
+
 
