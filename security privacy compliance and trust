@@ -110,3 +110,58 @@ Azure monitor:
 Monitoring apps and services:
   analyze, respond, visualize and integrate
 
+Azure sentinel:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+to give a high level view of the security system.
+
+can be extended to onprem and cloud datacentres as well
+
+security information event managemtn (SIEM)
+security orchestration automated response (SOAR)
+
+all in one solution for threat visibility, detection, monitoring etc
+
+uses AI and logic apps..
+
+
+Azure governanc methodologies:::::::::::::::::::::::::::::::::::::
+
+Azure policy:
+  create definition
+  aassign definition
+  review evaluation results
+  
+Policy initiatives are a group of policy definitions into a single unit
+Initiaive definitions and initiaitve assignments
+
+Role based access control is freely included in azure. It is based on allow model.
+
+Resources locks are used to prevent altering or delete of resources by accident.
+
+Azure blueprints are standards and patterns that adhere to an organization's standards
+  create blueprint
+  assign blueprint
+  monitor
+  
+ Resource manager templates VS resource blue prints: Blueprints will maintain the reslationships between resources.
+ 
+ Privacy, compliance and Data protection standards::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
