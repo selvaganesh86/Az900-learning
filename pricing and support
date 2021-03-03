@@ -64,6 +64,26 @@ knowledge centre has questions and answers, search etc
 
 service level agreements::::::::::::::::::::::::::::::::::::::::::::::::::
 
+formal documents that commit from microsoft. performance targets 99.9 to 99.99
+mised SLA discounts are provided
+no SLA for free tier
 
+application SLAs can depemnd on Azure SLA
 
+availability metrics
+  mean time to recovery
+  mean time between failures
+  
+recovery metrics
+  Recovery timme objective
+  recovery data point
+  
+Service life cycles in azure::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+azure previews - custo,ers can try a feature before launch
+  private and public preview
+  no customer spport available in some cases
+  public previews can be seen in the portal
+  
+  azure updates page provides roadmaps and update dates
 
